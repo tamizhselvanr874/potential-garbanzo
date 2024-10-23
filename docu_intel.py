@@ -175,7 +175,7 @@ if st.button("Validate Office Action"):
         else:  
             st.warning("Please upload a valid Office Action document.")  
   
-# Step 2: Referenced Documents  
+# Step 2: Referenced Documents - Failed
 if st.session_state.application_number:  
     st.header("Step 2: Referenced Documents")  
     uploaded_ref_file = st.file_uploader("Upload Referenced Document", type=["pdf"])  
